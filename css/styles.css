@@ -1,0 +1,225 @@
+:root {
+    --primart-text-color: #212121
+    --background-color: #ffffff
+    --accent-color: #2196f3
+    --text-color: #757575
+
+}
+
+.body {
+    background-color: var(--background-color);
+    font-family: 'Roboto' , sans-serif;
+}
+.list {
+    list-style: none;
+}
+.sitenav-link {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+    } 
+.sitenav-link:focus ,
+.sitenav-link:hover {
+    color: #2196F3;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.textdecor {
+    text-decoration: none;
+}
+.logo:focus {
+    color: #2196F3;
+}
+.logo-footer {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
+.logo-footer:focus {
+    color: #2196F3;
+}
+.web {
+    font-family: 'Raleway',
+    sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.mail {
+    color: #757575;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.telefone {
+    color: #757575;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.mail:hover ,
+.mail:focus {
+    color: #2196F3;
+}
+.telefone:hover ,
+.telefone:focus {
+    color: #2196F3;
+}
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    font-family: inherit;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.button-title {
+    color: #ffffff;
+    background-color: #2196F3;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+}
+.text-title {
+    font-family: inherit;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 1.2;
+    align: left;
+    letter spacing: 3%;
+    color: #212121;
+    text-transform: uppercase;
+    
+}
+.text {
+   color: #757575; 
+   font-family: inherit;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   text-align: left;
+}
+.title {
+   color: #212121;
+   font-family: inherit;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.3;
+   letter-spacing: 0.03em;
+   text-align: center;
+}
+.comand {
+    color: #212121;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.comand-list {
+    color: #757575;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.footer {
+    background-color: #2F303A;
+}
+.address {
+   color: #ffffff; 
+   font-family: inherit;
+   font-style: normal;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+   text-align: left;
+}
+.button-title2 {
+    background-color: #F5F4FA;
+    color: #212121;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.button-title2:hover ,
+.button-title2:focus {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+.projects-title {
+    color: #212121;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.mail-footer {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}
+.telefone-footer {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}
+.mail-footer:focus ,
+.mail-footer:hover {
+    color: #2196F3;
+}
+.telefone-footer:focus ,
+.telefone-footer:hover {
+    color: #2196F3;
+}
