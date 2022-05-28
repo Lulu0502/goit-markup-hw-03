@@ -5,13 +5,45 @@
     --text-color: #757575
 
 }
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+}
 .body {
     background-color: var(--background-color);
     font-family: 'Roboto' , sans-serif;
 }
 .list {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.page-header {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+}
+.container {
+    margin-left: 215px;
+    margin-right: 215px;
+    width: 1200px;
+    background-color: #FFFFFF;
 }
 .sitenav-link {
     font-family: inherit;
@@ -37,6 +69,7 @@
 }
 .textdecor {
     text-decoration: none;
+    display: inline-block;
 }
 .logo:focus {
     color: #2196F3;
@@ -71,7 +104,11 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
-
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
 }
 .telefone {
     color: #757575;
@@ -81,6 +118,11 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
 }
 .mail:hover ,
 .mail:focus {
@@ -92,6 +134,7 @@ color: #ffffff;
 }
 .hero {
     background-color: #2F303A;
+    text-align: center;
 }
 .hero-title {
     font-family: inherit;
@@ -99,7 +142,6 @@ color: #ffffff;
     font-weight: 900;
     line-height: 1.4;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
     color: #ffffff;
 }
@@ -113,8 +155,14 @@ color: #ffffff;
     letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: 1px solid #2196F3;
 }
 .text-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: inherit;
     font-style: Bold;
     font-size: 14px;
@@ -123,7 +171,6 @@ color: #ffffff;
     letter spacing: 3%;
     color: #212121;
     text-transform: uppercase;
-    
 }
 .text {
    color: #757575; 
@@ -161,6 +208,12 @@ color: #ffffff;
 }
 .footer {
     background-color: #2F303A;
+}
+.container-footer {
+    margin-left: 215px;
+    margin-right: 215px;
+    width: 1200px;
+    background-color: #2F303A
 }
 .address {
    color: #ffffff; 
