@@ -14,16 +14,16 @@
 <body class="body">
     <!--Шапка сайта-->
     <header class="page-header">
-        <div class="container">
-            <nav>
+        <div class="container header-container">
+            <nav class="nav">
                <a href="index.html" class="logo textdecor" lang="en"><span class="web">Web</span>Studio</a>
-               <ul class="list">
+               <ul class="header-list list">
                 <li><a href="studio.html" class="sitenav-link textdecor">Студия</a></li>
                 <li><a href="portfolio.html" class="sitenav-link textdecor">Портфолио</a></li>
                 <li><a href=" " class="sitenav-link textdecor">Контакты</a></li>
                </ul>
             </nav>
-            <ul class="list">
+            <ul class="header-contacts list">
                 <li><a href="mailto:info@devstudio.com" class="mail textdecor">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="telefone textdecor">+38 096 111 11 11</a></li>
             </ul>
@@ -32,35 +32,37 @@
     <main>
         <!--Герой-->
         <section class="hero">
-            <h1 class="hero-title">
-                Эффективные решения <br> для вашего бизнеса
-            </h1>
-            <button class="button-title">Заказать услугу</button>
+            <div class="container">
+                <h1 class="hero-title">
+                    Эффективные решения <br> для вашего бизнеса
+                </h1>
+                <button class="button-title">Заказать услугу</button>
+            </div>
         </section>
     <!--Преимущества-->
         <section class="benefits">
-            <div class="container">
+            <div class="container benefits-container">
                 <h2 hidden>Наши преимущества</h2>
-                <ul class="list">
-                    <li>
+                <ul class="list benefits-list">
+                    <li class="item">
                         <h3 class="text-title">Внимание к деталям</h3>
                         <p class="text">
                             Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="text-title">Пунктуальность</h3>
                         <p class="text">
                             Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                         </p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="text-title">Планирование</h3>
                         <p class="text">
                             Равным образом консультация с широким активом в значительной степени обуславливает.
                         </p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="text-title">Современные технологии</h3>
                         <p class="text">
                             Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -70,58 +72,58 @@
             </div>
         </section>
         <!--Чем мы занимаемся-->
-        <section>
+        <section class="work">
             <div class="container">
-                <h2 class="title">
+                <h2 class="title-work">
                     Чем мы занимаемся
                 </h2>
-                <ul class="list">
-                    <li>
+                <ul class="list work-list">
+                    <li class="item-img">
                         <img src="img.index.html/img.jpg" alt="план перенеса данных на компьютер" width="294">
                     </li>
-                    <li>
+                    <li class="item-img">
                         <img src="img.index.html/img-2.jpg" alt="смартфон и ноутбук" width="294">
                     </li>
-                    <li>
+                    <li class="item-img">
                         <img src="img.index.html/img-3.jpg" alt="планшет" width="294">
                     </li>
                 </ul>
             </div>
         </section>
         <!--Команда-->
-        <section>
+        <section class="work-comand">
             <div class="container">
-                <h2 class="title">
+                <h2 class="work-title">
                     Наша команда
                 </h2>
-                <ul class="list">
-                    <li>
-                        <img src="img.index.html/img-4.jpg" alt="член команды 3" width="270">
-                        <h3 class="comand">Игорь Демьяненко</h3>
-                        <h3 class="comand-list" lang="en">Product Designer</h3>
-                    </li>
-                    <li>
-                        <img src="img.index.html/img-5.jpg" alt="член команды 2" width="270">
-                        <h3 class="comand">Ольга Репина</h3>
-                        <h3 class="comand-list" lang="en">Frontend Developer</h3>
-                    </li>
-                    <li>
-                        <img src="img.index.html/img-6.jpg" alt="член команды 3" width="270">
-                        <h3 class="comand">Николай Тарасов</h3>
-                        <h3 class="comand-list" lang="en">Marketing</h3>
-                    </li>
-                    <li>
-                        <img src="img.index.html/img-7.jpg" alt="член команды 4" width="270">
-                        <h3 class="comand">Михаил Ермаков</h3>
-                        <h3 class="comand-list" lang="en">UI Designer</h3>
-                    </li>
-                </ul>
+                    <ul class="list team">
+                        <li class="team-card">
+                            <img src="img.index.html/img-4.jpg" alt="член команды 3" width="270" class="img">
+                            <h3 class="comand">Игорь Демьяненко</h3>
+                            <h3 class="comand-list" lang="en">Product Designer</h3>
+                        </li>
+                        <li class="team-card">
+                            <img src="img.index.html/img-5.jpg" alt="член команды 2" width="270" class="img">
+                            <h3 class="comand">Ольга Репина</h3>
+                            <h3 class="comand-list" lang="en">Frontend Developer</h3>
+                        </li>
+                        <li class="team-card">
+                            <img src="img.index.html/img-6.jpg" alt="член команды 3" width="270" class="img">
+                            <h3 class="comand">Николай Тарасов</h3>
+                            <h3 class="comand-list" lang="en">Marketing</h3>
+                        </li>
+                        <li class="team-card">
+                            <img src="img.index.html/img-7.jpg" alt="член команды 4" width="270" class="img">
+                            <h3 class="comand">Михаил Ермаков</h3>
+                            <h3 class="comand-list" lang="en">UI Designer</h3>
+                        </li>
+                    </ul>
             </div>
         </section>
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <div class="container-footer">
+        <div class="container">
             <a href="index.html" class="logo-footer textdecor" lang="en"><span class="web">Web</span>Studio</a>
             <address>
                 <p class="address">г. Киев, пр. Леси Украинки, 26</p>
