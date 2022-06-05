@@ -18,14 +18,14 @@
             <nav class="nav">
                <a href="index.html" class="logo textdecor" lang="en"><span class="web">Web</span>Studio</a>
                <ul class="header-list list">
-                <li><a href="studio.html" class="sitenav-link textdecor">Студия</a></li>
-                <li><a href="portfolio.html" class="sitenav-link textdecor">Портфолио</a></li>
-                <li><a href=" " class="sitenav-link textdecor">Контакты</a></li>
+                <li class="header-nav-link"><a href="studio.html" class="sitenav-link textdecor">Студия</a></li>
+                <li class="header-nav-link"><a href="portfolio.html" class="sitenav-link textdecor">Портфолио</a></li>
+                <li class="header-nav-link"><a href=" " class="sitenav-link textdecor">Контакты</a></li>
                </ul>
             </nav>
             <ul class="header-contacts list">
-                <li><a href="mailto:info@devstudio.com" class="mail textdecor">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="telefone textdecor">+38 096 111 11 11</a></li>
+                <li class="header-contact-link"><a href="mailto:info@devstudio.com" class="header-link textdecor">info@devstudio.com</a></li>
+                <li class="header-contact-link"><a href="tel:+380961111111" class="header-link textdecor">+38 096 111 11 11</a></li>
             </ul>
         </div>     
     </header>
@@ -41,7 +41,7 @@
         </section>
     <!--Преимущества-->
         <section class="benefits">
-            <div class="container benefits-container">
+            <div class="container section benefits-container">
                 <h2 hidden>Наши преимущества</h2>
                 <ul class="list benefits-list">
                     <li class="item">
@@ -73,49 +73,57 @@
         </section>
         <!--Чем мы занимаемся-->
         <section class="work">
-            <div class="container">
+            <div class="container section work-container">
                 <h2 class="title-work">
                     Чем мы занимаемся
                 </h2>
                 <ul class="list work-list">
                     <li class="item-img">
-                        <img src="img.index.html/img.jpg" alt="план перенеса данных на компьютер" width="294">
+                        <img src="./images/img.jpg" alt="план перенеса данных на компьютер" width="370">
                     </li>
                     <li class="item-img">
-                        <img src="img.index.html/img-2.jpg" alt="смартфон и ноутбук" width="294">
+                        <img src="./images/img-2.jpg" alt="смартфон и ноутбук" width="370">
                     </li>
                     <li class="item-img">
-                        <img src="img.index.html/img-3.jpg" alt="планшет" width="294">
+                        <img src="./images/img-3.jpg" alt="планшет" width="370">
                     </li>
                 </ul>
             </div>
         </section>
         <!--Команда-->
         <section class="work-comand">
-            <div class="container">
+            <div class="container section comand-container">
                 <h2 class="work-title">
                     Наша команда
                 </h2>
                     <ul class="list team">
                         <li class="team-card">
-                            <img src="img.index.html/img-4.jpg" alt="член команды 3" width="270" class="img">
-                            <h3 class="comand">Игорь Демьяненко</h3>
-                            <h3 class="comand-list" lang="en">Product Designer</h3>
+                            <img src="./images/img-4.jpg" alt="член команды 3" width="270">
+                            <div class="card-text">
+                                <h3 class="comand">Игорь Демьяненко</h3>
+                                <p class="comand-list" lang="en">Product Designer</p>
+                            </div>
                         </li>
                         <li class="team-card">
-                            <img src="img.index.html/img-5.jpg" alt="член команды 2" width="270" class="img">
-                            <h3 class="comand">Ольга Репина</h3>
-                            <h3 class="comand-list" lang="en">Frontend Developer</h3>
+                            <img src="./images/img-5.jpg" alt="член команды 2" width="270">
+                            <div class="card-text">
+                                <h3 class="comand">Ольга Репина</h3>
+                                <p class="comand-list" lang="en">Frontend Developer</p>
+                            </div>
                         </li>
                         <li class="team-card">
-                            <img src="img.index.html/img-6.jpg" alt="член команды 3" width="270" class="img">
-                            <h3 class="comand">Николай Тарасов</h3>
-                            <h3 class="comand-list" lang="en">Marketing</h3>
+                            <img src="./images/img-6.jpg" alt="член команды 3" width="270">
+                            <div class="card-text">
+                                <h3 class="comand">Николай Тарасов</h3>
+                                <p class="comand-list" lang="en">Marketing</p>
+                            </div>
                         </li>
                         <li class="team-card">
-                            <img src="img.index.html/img-7.jpg" alt="член команды 4" width="270" class="img">
-                            <h3 class="comand">Михаил Ермаков</h3>
-                            <h3 class="comand-list" lang="en">UI Designer</h3>
+                            <img src="./images/img-7.jpg" alt="член команды 4" width="270">
+                            <div class="card-text">
+                                <h3 class="comand">Михаил Ермаков</h3>
+                                <p class="comand-list" lang="en">UI Designer</p>
+                            </div>
                         </li>
                     </ul>
             </div>
@@ -123,13 +131,13 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
             <a href="index.html" class="logo-footer textdecor" lang="en"><span class="web">Web</span>Studio</a>
             <address>
                 <p class="address">г. Киев, пр. Леси Украинки, 26</p>
                 <ul class="list">
-                    <li><a href="mailto:info@devstudio.com" class="mail-footer textdecor">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="telefone-footer textdecor">+38 096 111 11 11</a></li>
+                    <li class="footer-link"><a href="mailto:info@devstudio.com" class="contacts-footer textdecor">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="contacts-footer textdecor">+38 096 111 11 11</a></li>
                 </ul>
             </address>
         </div>
