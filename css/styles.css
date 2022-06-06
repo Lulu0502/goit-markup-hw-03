@@ -87,6 +87,9 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: left;
     color: #212121;
 }
+.sitenav-link.current {
+    color: #2196f3;
+}
 .sitenav-link:focus,
 .sitenav-link:hover {
     color: #2196F3;
@@ -384,7 +387,7 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff;
     background-color: #2196F3;
 }
-.filter {
+.filter:not(:last-child) {
     margin-right: 8px;
 }
 .filter :last-child {
@@ -398,11 +401,9 @@ h1, h2, h3, h4, h5, h6, p {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    gap: 15px;
+    margin: -15px;
 }
 .portfolio-item {
-    max-width: 100%;
-    height: auto;
+    margin: 15px;
 }
 
